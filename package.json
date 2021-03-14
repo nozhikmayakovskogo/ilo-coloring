@@ -1,0 +1,30 @@
+{
+  "name": "ilo-coloring.loc",
+  "version": "1.0.0",
+  "description": "Сайт раскрасок",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "case-sensitive-paths-webpack-plugin": "^2.3.0",
+    "html-webpack-plugin": "^5.1.0",
+    "typescript": "^3.9.9",
+    "webpack": "^5.22.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "rxjs": "^6.6.6"
+  }
+}

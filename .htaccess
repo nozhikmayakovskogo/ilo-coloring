@@ -1,0 +1,76 @@
+AddDefaultCharset utf-8
+php_flag default_charset utf-8
+
+php_flag display_errors on
+php_flag display_startup_errors on
+
+Options -Indexes
+
+RewriteOptions inherit
+RewriteEngine on
+
+RewriteBase /
+
+<Files .*>
+    Order Deny,Allow
+    Deny From All
+</Files>
+
+RewriteCond %{HTTPS} =off 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
+RewriteRule ^([^.]+)\.php$ /$1 [R=301,L]
+RewriteCond %{REQUEST_URI} !(\.[^./]+)$
+RewriteCond %{REQUEST_fileNAME} !-d
+RewriteCond %{REQUEST_fileNAME} !-f
+RewriteRule (.*) /$1.html
+
+
+<FilesMatch "\.(ogg|ogv|svg|svgz|eot|otf|woff|woff2|mp4|ttf|rss|atom|jpg|jpeg|gif|png|ico|zip|tgz|gz|rar|bz2|doc|xls|exe|ppt|tar|mid|midi|wav|bmp|rtf|webp)$">
+Header set Cache-Control "max-age=2592000, must-revalidate"
+</FilesMatch>
+
+<ifModule mod_expires.c>
+ExpiresActive On
+ 
+#по умолчанию кеш в 5 секунд
+ExpiresDefault "access plus 1 days"
+ 
+# Включаем кэширование изображений и флэш на месяц
+ExpiresByType image/x-icon "access plus 1 month"
+ExpiresByType image/jpeg "access plus 4 weeks"
+ExpiresByType image/png "access plus 30 days"
+ExpiresByType image/gif "access plus 43829 minutes"
+ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+ExpiresByType image/webp "access plus 43829 minutes"
+# Включаем кэширование css, javascript и текстовых файлов на одну неделю
+ExpiresByType text/css "access plus 604800 seconds"
+ExpiresByType text/javascript "access plus 604800 seconds"
+ExpiresByType application/javascript "access plus 604800 seconds"
+ExpiresByType application/x-javascript "access plus 604800 seconds"
+ 
+# Включаем кэширование html и htm файлов на один день
+#ExpiresByType text/html "access plus 43200 seconds"
+ 
+# Включаем кэширование xml файлов на десять минут
+ExpiresByType application/xhtml+xml "access plus 600 seconds"
+ 
+# Нестандартные шрифты сайта 
+ExpiresByType application/x-font-ttf "access plus 1 month"
+ExpiresByType font/opentype "access plus 1 month"
+ExpiresByType application/x-font-woff "access plus 1 month"
+ExpiresByType image/svg+xml "access plus 1 month"
+ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+</ifModule>
+
+<IfModule mod_deflate.c>
+#AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript image/svg+xml
+</IfModule>
+<IfModule mod_setenvif.c>
+#BrowserMatch ^Mozilla/4 gzip-only-text/html
+#BrowserMatch ^Mozilla/4\.0[678] no-gzip
+#BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+</IfModule>
+
+

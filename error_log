@@ -1,0 +1,733 @@
+[13-Nov-2020 15:12:00 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[16-Nov-2020 10:01:30 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InternalServerError' with message 'Internal server error.Error code: internal_server_error.' in /home/fadysdha/ilo-coloring.ru/lib/Client.php:784
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client.php(382): YandexCheckout\Client->handleError(Object(YandexCheckout\Common\ResponseObject))
+#1 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16055136605fb23...')
+#2 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client.php on line 784
+[16-Nov-2020 10:05:12 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[16-Nov-2020 10:05:36 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[16-Nov-2020 10:06:33 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InternalServerError' with message 'Internal server error.Error code: internal_server_error.' in /home/fadysdha/ilo-coloring.ru/lib/Client.php:784
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client.php(382): YandexCheckout\Client->handleError(Object(YandexCheckout\Common\ResponseObject))
+#1 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16055139615fb23...')
+#2 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client.php on line 784
+[16-Nov-2020 10:06:41 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InternalServerError' with message 'Internal server error.Error code: internal_server_error.' in /home/fadysdha/ilo-coloring.ru/lib/Client.php:784
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client.php(382): YandexCheckout\Client->handleError(Object(YandexCheckout\Common\ResponseObject))
+#1 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16055139715fb23...')
+#2 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client.php on line 784
+[16-Nov-2020 10:06:44 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InternalServerError' with message 'Internal server error.Error code: internal_server_error.' in /home/fadysdha/ilo-coloring.ru/lib/Client.php:784
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client.php(382): YandexCheckout\Client->handleError(Object(YandexCheckout\Common\ResponseObject))
+#1 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16055139745fb23...')
+#2 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client.php on line 784
+[16-Nov-2020 10:06:52 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InternalServerError' with message 'Internal server error.Error code: internal_server_error.' in /home/fadysdha/ilo-coloring.ru/lib/Client.php:784
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client.php(382): YandexCheckout\Client->handleError(Object(YandexCheckout\Common\ResponseObject))
+#1 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16055139825fb23...')
+#2 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client.php on line 784
+[16-Nov-2020 10:06:55 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InternalServerError' with message 'Internal server error.Error code: internal_server_error.' in /home/fadysdha/ilo-coloring.ru/lib/Client.php:784
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client.php(382): YandexCheckout\Client->handleError(Object(YandexCheckout\Common\ResponseObject))
+#1 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16055139855fb23...')
+#2 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client.php on line 784
+[16-Nov-2020 10:11:38 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InternalServerError' with message 'Internal server error.Error code: internal_server_error.' in /home/fadysdha/ilo-coloring.ru/lib/Client.php:784
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client.php(382): YandexCheckout\Client->handleError(Object(YandexCheckout\Common\ResponseObject))
+#1 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16055142645fb23...')
+#2 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client.php on line 784
+[16-Nov-2020 10:21:07 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InternalServerError' with message 'Internal server error.Error code: internal_server_error.' in /home/fadysdha/ilo-coloring.ru/lib/Client.php:784
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client.php(382): YandexCheckout\Client->handleError(Object(YandexCheckout\Common\ResponseObject))
+#1 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16055148675fb23...')
+#2 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client.php on line 784
+[16-Nov-2020 17:03:41 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[17-Nov-2020 11:45:25 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[17-Nov-2020 14:29:46 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[17-Nov-2020 17:20:39 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[18-Nov-2020 20:00:10 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[20-Nov-2020 13:13:36 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[24-Nov-2020 10:45:51 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[25-Nov-2020 08:50:07 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[25-Nov-2020 08:50:46 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[25-Nov-2020 12:44:52 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[26-Nov-2020 15:06:31 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[27-Nov-2020 09:55:22 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[28-Nov-2020 11:53:37 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[28-Nov-2020 12:14:33 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[28-Nov-2020 15:31:57 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[28-Nov-2020 15:32:08 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[30-Nov-2020 12:31:18 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[30-Nov-2020 15:46:43 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[30-Nov-2020 15:48:29 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[30-Nov-2020 15:53:47 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[30-Nov-2020 15:54:45 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[30-Nov-2020 15:55:54 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[01-Dec-2020 04:35:23 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[01-Dec-2020 04:38:27 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[01-Dec-2020 04:38:58 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[01-Dec-2020 14:45:55 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[02-Dec-2020 15:02:39 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[02-Dec-2020 15:02:59 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[03-Dec-2020 11:52:15 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[03-Dec-2020 11:55:06 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[03-Dec-2020 14:04:06 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[03-Dec-2020 14:04:32 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[04-Dec-2020 08:20:01 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[04-Dec-2020 08:20:31 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[04-Dec-2020 10:10:56 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[04-Dec-2020 13:06:00 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[04-Dec-2020 14:06:09 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[04-Dec-2020 14:16:18 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[05-Dec-2020 18:16:57 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[05-Dec-2020 18:17:12 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[06-Dec-2020 10:38:35 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[06-Dec-2020 10:39:06 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[06-Dec-2020 10:41:43 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[06-Dec-2020 10:41:50 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[08-Dec-2020 09:23:31 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[08-Dec-2020 09:26:08 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[08-Dec-2020 14:03:42 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[09-Dec-2020 11:01:02 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[10-Dec-2020 13:17:21 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[11-Dec-2020 02:51:15 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[11-Dec-2020 02:51:24 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[11-Dec-2020 03:00:27 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[11-Dec-2020 03:27:02 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[11-Dec-2020 03:30:29 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[11-Dec-2020 03:30:36 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[11-Dec-2020 03:30:47 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[11-Dec-2020 03:31:07 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[11-Dec-2020 10:08:29 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[11-Dec-2020 10:09:11 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[12-Dec-2020 12:02:08 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\ApiConnectionException' with message 'Could not connect to Yandex Money API. Please check your internet connection and try again.
+
+(Network error [errno 28]: Resolving timed out after 30000 milliseconds)' in /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php:390
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php(238): YandexCheckout\Client\CurlClient->handleCurlError('Resolving timed...', 28)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php(169): YandexCheckout\Client\CurlClient->sendRequest()
+#2 /home/fadysdha/ilo-coloring.ru/lib/Client.php(843): YandexCheckout\Client\CurlClient->call('/payments', 'POST', NULL, '{"amount":{"val...', Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Client.php(375): YandexCheckout\Client->execute('/payments', 'POST', NULL, '{"amount":{"val...', Array)
+#4 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16077672975fd49...')
+#5 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php on line 390
+[12-Dec-2020 12:02:19 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\ApiConnectionException' with message 'Could not connect to Yandex Money API. Please check your internet connection and try again.
+
+(Network error [errno 6]: Could not resolve host: payment.yandex.net)' in /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php:390
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php(238): YandexCheckout\Client\CurlClient->handleCurlError('Could not resol...', 6)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php(169): YandexCheckout\Client\CurlClient->sendRequest()
+#2 /home/fadysdha/ilo-coloring.ru/lib/Client.php(843): YandexCheckout\Client\CurlClient->call('/payments', 'POST', NULL, '{"amount":{"val...', Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Client.php(375): YandexCheckout\Client->execute('/payments', 'POST', NULL, '{"amount":{"val...', Array)
+#4 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16077673395fd49...')
+#5 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php on line 390
+[12-Dec-2020 12:02:45 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\ApiConnectionException' with message 'Could not connect to Yandex Money API. Please check your internet connection and try again.
+
+(Network error [errno 6]: Could not resolve host: payment.yandex.net)' in /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php:390
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php(238): YandexCheckout\Client\CurlClient->handleCurlError('Could not resol...', 6)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php(169): YandexCheckout\Client\CurlClient->sendRequest()
+#2 /home/fadysdha/ilo-coloring.ru/lib/Client.php(843): YandexCheckout\Client\CurlClient->call('/payments', 'POST', NULL, '{"amount":{"val...', Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Client.php(375): YandexCheckout\Client->execute('/payments', 'POST', NULL, '{"amount":{"val...', Array)
+#4 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16077673655fd49...')
+#5 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php on line 390
+[12-Dec-2020 12:03:38 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\ApiConnectionException' with message 'Could not connect to Yandex Money API. Please check your internet connection and try again.
+
+(Network error [errno 6]: Could not resolve host: payment.yandex.net)' in /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php:390
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php(238): YandexCheckout\Client\CurlClient->handleCurlError('Could not resol...', 6)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php(169): YandexCheckout\Client\CurlClient->sendRequest()
+#2 /home/fadysdha/ilo-coloring.ru/lib/Client.php(843): YandexCheckout\Client\CurlClient->call('/payments', 'POST', NULL, '{"amount":{"val...', Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Client.php(375): YandexCheckout\Client->execute('/payments', 'POST', NULL, '{"amount":{"val...', Array)
+#4 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16077674185fd49...')
+#5 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php on line 390
+[17-Dec-2020 12:29:04 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[17-Dec-2020 12:34:16 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[17-Dec-2020 12:34:36 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[17-Dec-2020 12:36:26 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[17-Dec-2020 14:15:15 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[17-Dec-2020 14:16:54 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[17-Dec-2020 14:17:02 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[22-Dec-2020 10:04:36 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[22-Dec-2020 17:40:51 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[27-Dec-2020 16:43:13 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[29-Dec-2020 11:41:47 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\ApiConnectionException' with message 'Could not connect to Yandex Money API. Please check your internet connection and try again.
+
+(Network error [errno 28]: Resolving timed out after 30000 milliseconds)' in /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php:390
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php(238): YandexCheckout\Client\CurlClient->handleCurlError('Resolving timed...', 28)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php(169): YandexCheckout\Client\CurlClient->sendRequest()
+#2 /home/fadysdha/ilo-coloring.ru/lib/Client.php(843): YandexCheckout\Client\CurlClient->call('/payments', 'POST', NULL, '{"amount":{"val...', Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Client.php(375): YandexCheckout\Client->execute('/payments', 'POST', NULL, '{"amount":{"val...', Array)
+#4 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16092348625feaf...')
+#5 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php on line 390
+[29-Dec-2020 11:42:12 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\ApiConnectionException' with message 'Could not connect to Yandex Money API. Please check your internet connection and try again.
+
+(Network error [errno 6]: Could not resolve host: payment.yandex.net)' in /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php:390
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php(238): YandexCheckout\Client\CurlClient->handleCurlError('Could not resol...', 6)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php(169): YandexCheckout\Client\CurlClient->sendRequest()
+#2 /home/fadysdha/ilo-coloring.ru/lib/Client.php(843): YandexCheckout\Client\CurlClient->call('/payments', 'POST', NULL, '{"amount":{"val...', Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Client.php(375): YandexCheckout\Client->execute('/payments', 'POST', NULL, '{"amount":{"val...', Array)
+#4 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16092349325feaf...')
+#5 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php on line 390
+[29-Dec-2020 11:42:41 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\ApiConnectionException' with message 'Could not connect to Yandex Money API. Please check your internet connection and try again.
+
+(Network error [errno 6]: Could not resolve host: payment.yandex.net)' in /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php:390
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php(238): YandexCheckout\Client\CurlClient->handleCurlError('Could not resol...', 6)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php(169): YandexCheckout\Client\CurlClient->sendRequest()
+#2 /home/fadysdha/ilo-coloring.ru/lib/Client.php(843): YandexCheckout\Client\CurlClient->call('/payments', 'POST', NULL, '{"amount":{"val...', Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Client.php(375): YandexCheckout\Client->execute('/payments', 'POST', NULL, '{"amount":{"val...', Array)
+#4 /home/fadysdha/ilo-coloring.ru/payment.php(51): YandexCheckout\Client->createPayment(Array, '16092349615feaf...')
+#5 {main}
+  thrown in /home/fadysdha/ilo-coloring.ru/lib/Client/CurlClient.php on line 390
+[29-Dec-2020 16:18:14 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[04-Jan-2021 08:56:24 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[04-Jan-2021 16:43:14 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100
+[04-Jan-2021 16:43:14 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'YandexCheckout\Common\Exceptions\InvalidPropertyValueException' with message 'Invalid amount value: "0"' in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php:100
+Stack trace:
+#0 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(90): YandexCheckout\Model\MonetaryAmount->setValue(0)
+#1 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractObject.php(166): YandexCheckout\Common\AbstractObject->offsetSet('value', 0)
+#2 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractPaymentRequestBuilder.php(83): YandexCheckout\Common\AbstractObject->fromArray(Array)
+#3 /home/fadysdha/ilo-coloring.ru/lib/Common/AbstractRequestBuilder.php(107): YandexCheckout\Common\AbstractPaymentRequestBuilder->setAmount(Array)
+#4 /home/fadysdha/ilo-coloring.ru/lib/Request/Payments/CreatePaymentRequestBuilder.php(310): YandexCheckout\Common\AbstractRequestBuilder->setOptions(Array)
+#5 /home/fadysdha/ilo-coloring.ru/lib/Client.php(368): YandexCheckout\Request\Payments\CreatePaymentRequestBuilder->build(Array in /home/fadysdha/ilo-coloring.ru/lib/Model/MonetaryAmount.php on line 100

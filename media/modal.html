@@ -1,0 +1,114 @@
+<div class="ui small modal" id="cartModal">
+	<i class="close icon"></i>
+	<div class="header">Ваша корзина</div>
+	<div class="content">
+	
+		<table class="ui unstackable very basic collapsing table" id="cartModalTable"></table>
+		
+		<p class="modal_cart_resume ui right aligned">Сумма: <span id="totalSum">0</span> р.</p>
+		<div class="wrap-modal-form">
+			<h3>ЗАПОЛНИТЕ ФОРМУ, ЧТОБЫ ОФОРМИТЬ ЗАКАЗ</h3>
+			<form action="send.php" method="post" class="ui large form" id="cartProcessForm">
+				<div class="field">
+					<label for="cartModalInputName">Введите ваше имя (необязательное поле)</label>
+					<input type="text" name="name" id="cartModalInputName" placeholder="Ваше имя">
+				</div>
+				<div class="field">
+					<label for="cartModalInputPhone">Введите ваш телефон *</label>
+					<input type="tel" name="phone" id="cartModalInputPhone" placeholder="+7(999)9999999" required>
+				</div>
+				<div class="grouped fields">
+					<label for="fruit">Выберите тип доставки</label>
+					<div class="field">
+						<div class="ui radio">
+							<label><input type="radio" name="delivery" value="sd" checked> Самовывоз (Санкт-Петербург)</label>
+						</div>
+					</div>
+					<div class="field">
+						<div class="ui radio">
+							<label><input type="radio" name="delivery" value="russian-post"> Почтой России</label>
+						</div>
+					</div>
+					<div class="field">
+						<div class="ui radio">
+							<label><input type="radio" name="delivery" value="courier"> Бесконтактная курьерская доставка</label>
+						</div>
+					</div>
+				</div>
+				
+				<div id="addressFormInput">
+					<div class="field">
+						<label>Ваш город</label>
+						<input type="text" name="city">
+					</div>
+					<div class="field">
+						<label>Адрес для доставки</label>
+						<textarea name="address" rows="2"></textarea>
+					</div>
+				</div>
+				
+				<div class="field">
+					<label>Выберите способ оплаты</label>
+					<select name="payment" class="ui dropdown" id="cartFormSelect">
+						<option value="10" selected>При получении</option>
+						<option value="7">Онлайн оплата</option>
+					</select>
+				</div>
+
+				<div class="field">
+					<label>Промокод (если он у вас есть)</label>
+					<input type="text" name="promocode" placeholder="Введите промокод">
+				</div>
+
+				<button type="submit" class="fluid ui yellow button" id="submitCartForm">Заказать</button><br>
+				<div class="ui checkbox">
+					<input type="checkbox" name="agree" id="cartFormCheckbox" checked>
+					<label for="cartFormCheckbox">Я согласен на обработку персональных данных</label>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="ui fullscreen modal" id="goodDetailsModal">
+	<i class="close icon"></i>
+	<div class="header"><button class="btnCloseGoodDetailsModal"><i class="icon arrow left"></i> Вернуться в каталог</button></div>
+	<div class="image content">
+		<div class="ui container modal-body"></div>
+	</div>
+</div>
+
+
+<script>
+	$(document).on('click', 'input[type="tel"]',function(){
+		$(this).setCursorPosition(2);  // set position number
+	});
+	$.mask.definitions['N'] = '[/0-6|9/]';
+	$('input[type="tel"]').mask("8(N99) 999-99-99");
+
+	let submitCartFormEl = document.getElementById('submitCartForm');
+	let cartFormCheckboxEl = document.getElementById('cartFormCheckbox');
+	cartFormCheckboxEl.onchange = () => {
+		if( cartFormCheckboxEl.checked ) {
+			//submitCartFormEl
+		} else {
+			//submitCartFormEl
+		}
+	}
+    
+    
+
+	let deliveryTypeEls = document.getElementsByName('delivery');
+	let c = 0;
+	while( c < deliveryTypeEls.length ) {
+		if( deliveryTypeEls[c].checked ) {
+			//alert(c);
+		}
+		c++;
+	}
+
+	let cartFormSelectEl = document.getElementById('cartFormSelect');
+	cartFormSelectEl.onchange = () => {
+		//alert(7);
+	}
+
+</script>
