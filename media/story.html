@@ -1,0 +1,94 @@
+<div class="section" id="story">
+	<div class="ui container">
+		<div class="video-block">
+			<div class="ui stackable grid">
+				<div class="two column row">
+					<div class="column">
+						<h3>АВТОРСКИЕ РАСКРАСКИ ilO</h3>
+						<p>Раскраска ilo – это крутой и полезный подарок, который запомнится надолго и подарит море позитивных эмоций!</p>
+						<ul>
+							<li>Все раскраски располагаются в брендированном тубусе.</li>
+							<li>Плотная бумага не позволяет прорисовывать плакат насквозь даже самому ядрёному маркеру.</li>
+							<li>Раскраску можно повесить на стену для раскрашивания или как картину, созданную вашим ребенком.</li>
+						</ul>
+					</div>
+					<div class="column">
+						<!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+						<div id="player" class="ui fluid" style="width:100%;"></div>
+						<script>
+							// 2. This code loads the IFrame Player API code asynchronously.
+							var tag = document.createElement('script');
+							tag.src = "https://www.youtube.com/iframe_api";
+							var firstScriptTag = document.getElementsByTagName('script')[0];
+							firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+							// 3. This function creates an <iframe> (and YouTube player) after the API code downloads.
+							var player;
+							function onYouTubeIframeAPIReady() {
+								player = new YT.Player('player', {
+									height: '360',
+									width: '640',
+									videoId: 'w6EbW2Rm4zU',
+									events: {
+										'onReady': onPlayerReady,
+										'onStateChange': onPlayerStateChange
+									}
+								});
+							}
+
+							// 4. The API will call this function when the video player is ready.
+							function onPlayerReady(event) {
+								//event.target.playVideo();
+							}
+							// 5. The API calls this function when the player's state changes. The function indicates that when playing a video (state=1), the player should play for six seconds and then stop.
+							var done = false;
+							function onPlayerStateChange(event) {
+								if (event.data == YT.PlayerState.PLAYING && !done) {
+									setTimeout(stopVideo, 6000);
+									done = true;
+								}
+							}
+							function stopVideo() {
+								player.stopVideo();
+							}
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="complement">
+			<h3 class="text-center">В КОМПЛЕКТ ВХОДИТ</h3>
+			
+			<div class="ui stackable two column centered grid">
+				<div class="column">
+					<h4>Гигантская раскраска</h4>
+					<p>Для изготовления раскрасок мы используем бумагу со специальным покрытием, которая защитит ваши стены от маркеров.</p>
+				</div>
+				<div class="column">
+					<img src="upload/pages/pic-02.png" class="ui fluid image" alt="Гигантская раскраска">
+				</div>
+			</div>
+			<div class="ui stackable two column centered grid">
+				<div class="column hidden-sm">
+					<img src="upload/pages/pic-03.png" class="ui fluid image" alt="Липкие крепления">
+				</div>
+				<div class="column">
+					<h4>Липкие крепления</h4>
+					<p>В комплекте вы найдете липкие крепления для стены, которые не оставляют следов. Вы можете рисовать на полу или повесить раскраску на стену.</p>
+				</div>
+				<div class="column visible-sm">
+					<img src="upload/pages/pic-03.png" class="ui fluid image" alt="Липкие крепления">
+				</div>
+			</div>
+			<div class="ui stackable two column centered grid">
+				<div class="column">
+					<h4>Подарочная упаковка</h4>
+					<p>Раскраска упакована в фирменный тубус, которые защитит ваш раскраску. Вам не нужно думать о подарочной упаковке. Купил и идеальный подарок готов!</p>
+				</div>
+				<div class="column">
+					<img src="upload/pages/pic-04.png" class="ui fluid image" alt="Подарочная упаковка">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
